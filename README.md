@@ -1,4 +1,10 @@
-== Authorization Code
+=======
+# jpa-sample
+ jpa sample with spring boot
+ 
+
+
+ == Authorization Code
 
 http://localhost:8012/oauth/authorize?response_type=code&client_id=client&client_secret=secret&scope=read
 
@@ -19,3 +25,6 @@ curl localhost:8012/oauth/token -d "grant_type=password&username=rob@example.com
 curl localhost:8012/messages/search/inbox -H "Authorization: Bearer cf7b4c2e-339f-442b-884e-8b2c413b8dcc"
 
 curl -v localhost:8012/messages/ -X POST -d '{"summary":"I am","text":"using OAuth", "to" : "http://localhost:8012/users/1", "from":"http://localhost:8012/users/0"}' -H "Content-Type: application/json" -H "Authorization: Bearer db0d7df4-2712-4c7e-a5ab-d5add86427fe"
+
+
+
