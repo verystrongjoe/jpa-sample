@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: Maven Project Skeleton CRUD Rest API (EUR)
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.test
+Build-Jdk: 1.7.0_51
+Built-By: SDS
+Created-By: Maven Integration for Eclipse
+
