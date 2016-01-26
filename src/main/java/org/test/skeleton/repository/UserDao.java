@@ -7,4 +7,5 @@ import org.test.skeleton.entity.User;
 public interface UserDao extends CrudRepository<User, Long> {
 
     User findByEmail(@Param("email") String email);
+    User findByFirstName(@Param("firstName") String firstName);
 }
